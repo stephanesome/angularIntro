@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class TempConverterComponent {
   celsiusValue = 0;
   fahrenheitValue = 0;
-  constructor() { }
 
   convertCelsius(value: string): void {
     this.celsiusValue = Number(value);
@@ -19,4 +18,4 @@ export class TempConverterComponent {
     this.fahrenheitValue = Number(value);
     this.celsiusValue = ((this.fahrenheitValue - 32) * 5) / 9;
   }
-}0
+}
