@@ -19,4 +19,4 @@ export class TempConverterComponent {
     this.fahrenheitValue = Number(value);
     this.celsiusValue = ((this.fahrenheitValue - 32) * 5) / 9;
   }
-}
+}0
