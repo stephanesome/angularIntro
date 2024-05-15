@@ -4,8 +4,8 @@ import {TempConverterComponent} from "./temp-converter/temp-converter.component"
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
-    declarations: [AppComponent, TempConverterComponent]
-  }));
+    imports: [TempConverterComponent, AppComponent]
+}));
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);

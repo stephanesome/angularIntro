@@ -8,8 +8,8 @@ describe('TempConverterComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [TempConverterComponent]
-    });
+    imports: [TempConverterComponent]
+});
     fixture = TestBed.createComponent(TempConverterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
