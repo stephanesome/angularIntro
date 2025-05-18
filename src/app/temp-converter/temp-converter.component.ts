@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { DecimalPipe } from '@angular/common';
 
 @Component({
-    selector: 'app-temp-converter',
-    templateUrl: './temp-converter.component.html',
-    styleUrls: ['./temp-converter.component.css'],
-    standalone: true,
-    imports: [DecimalPipe]
+  selector: 'app-temp-converter',
+  templateUrl: './temp-converter.component.html',
+  styleUrls: ['./temp-converter.component.css'],
+  standalone: true,
+  imports: [DecimalPipe]
 })
 export class TempConverterComponent {
   celsiusValue = 0;
