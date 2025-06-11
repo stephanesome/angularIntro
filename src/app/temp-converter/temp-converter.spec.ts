@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TempConverterComponent } from './temp-converter.component';
+import { TempConverter } from './temp-converter';
 
 describe('TempConverterComponent', () => {
-  let component: TempConverterComponent;
-  let fixture: ComponentFixture<TempConverterComponent>;
+  let component: TempConverter;
+  let fixture: ComponentFixture<TempConverter>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-    imports: [TempConverterComponent]
+    imports: [TempConverter]
 });
-    fixture = TestBed.createComponent(TempConverterComponent);
+    fixture = TestBed.createComponent(TempConverter);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

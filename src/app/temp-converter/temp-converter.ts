@@ -3,12 +3,11 @@ import { DecimalPipe } from '@angular/common';
 
 @Component({
   selector: 'app-temp-converter',
-  templateUrl: './temp-converter.component.html',
-  styleUrls: ['./temp-converter.component.css'],
-  standalone: true,
+  templateUrl: './temp-converter.html',
+  styleUrls: ['./temp-converter.css'],
   imports: [DecimalPipe]
 })
-export class TempConverterComponent {
+export class TempConverter {
   celsiusValue = 0;
   fahrenheitValue = 0;
 

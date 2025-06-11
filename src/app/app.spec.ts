@@ -1,14 +1,14 @@
 import { TestBed } from '@angular/core/testing';
-import { AppComponent } from './app.component';
-import {TempConverterComponent} from "./temp-converter/temp-converter.component";
+import {App} from './app';
+import {TempConverter} from "./temp-converter/temp-converter";
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
-    imports: [TempConverterComponent, AppComponent]
+    imports: [TempConverter, App]
 }));
 
   it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
+    const fixture = TestBed.createComponent(App);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
